@@ -54,13 +54,13 @@ services:
         max-file: "3"
 
   mongodb:
-    image: yellowmessenger.azurecr.io/mongodb-swarm:v1
+    image: mongo
     ports:
       - "27017:27017"
     networks:
       - network
     volumes:
-      - elasticsearch:/usr/share/elasticsearch/data
+      - mongodb:/etc/mongo
     environment:
       discovery.type: single-node
     logging:
