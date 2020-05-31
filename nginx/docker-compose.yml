@@ -120,10 +120,4 @@ volumes:
 configs:
   default.conf:
     file: ./default.conf
-  portainer.conf:
-    file: ./portainer.conf
-  fullchain.pem:
-    file: ./fullchain.pem
-  privkey.pem:
-    file: ./privkey.pem
 
