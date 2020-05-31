@@ -1,11 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d413ff18-bf6b-42b1-9c1b-064a9c615137" name="Default Changelist" comment="" />
+    <list default="true" id="d413ff18-bf6b-42b1-9c1b-064a9c615137" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/mongo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/css/mixins/_text-hide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/contact.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/aos.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/aos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/css/mixins/_text-hide.css" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/flaticon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/icomoon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/icomoon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/ionicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/jquery.timepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/jquery.timepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/open-iconic-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/google-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/google-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-migrate-3.0.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.animateNumber.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery.animateNumber.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery.easing.1.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.stellar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery.stellar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/jquery.waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/scrollax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/scrollax.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cfU1UHe5lPv1noX0lpIW3F0j0d" />
   <component name="ProjectViewState">
@@ -16,7 +81,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/icons" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/icons" />
+      <recent name="$PROJECT_DIR$/public/javascripts" />
+      <recent name="$PROJECT_DIR$/public/stylesheets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JobsEffect" type="NodeJSConfigurationType" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="MONGODB_URL" value="mongodb://localhost:27017" />
+      </envs>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590918926375</updated>
       <workItem from="1590918928587" duration="833000" />
+      <workItem from="1590922060972" duration="10903000" />
     </task>
     <servers />
   </component>
@@ -36,9 +124,109 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="266" width="703" height="518" key="find.popup" timestamp="1590918995821">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590934310333">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="488" y="266" width="703" height="518" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590918995821" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590934310333" />
+    <state x="570" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590930951190">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="570" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1590930951190" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590930092812">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590930092812" />
+    <state x="594" y="283" key="EnvironmentVariablesDialog" timestamp="1590934308937">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="594" y="283" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590934308937" />
+    <state width="1659" height="344" key="GridCell.Tab.0.bottom" timestamp="1590937835303">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835303" />
+    <state width="1659" height="344" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223846" />
+    <state width="1659" height="344" key="GridCell.Tab.0.center" timestamp="1590937835301">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835301" />
+    <state width="1659" height="344" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223845" />
+    <state width="1659" height="344" key="GridCell.Tab.0.left" timestamp="1590937835300">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835300" />
+    <state width="1659" height="344" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223845" />
+    <state width="1659" height="344" key="GridCell.Tab.0.right" timestamp="1590937835302">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835302" />
+    <state width="1659" height="344" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223846" />
+    <state width="1659" height="344" key="GridCell.Tab.1.bottom" timestamp="1590937835305">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835305" />
+    <state width="1659" height="344" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590936690809" />
+    <state width="1659" height="344" key="GridCell.Tab.1.center" timestamp="1590937835304">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835304" />
+    <state width="1659" height="344" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590936690808" />
+    <state width="1659" height="344" key="GridCell.Tab.1.left" timestamp="1590937835303">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835303" />
+    <state width="1659" height="344" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590936690807" />
+    <state width="1659" height="344" key="GridCell.Tab.1.right" timestamp="1590937835304">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835304" />
+    <state width="1659" height="344" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590936690809" />
+    <state width="1659" height="344" key="GridCell.Tab.2.bottom" timestamp="1590937835306">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835306" />
+    <state width="1659" height="344" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223757" />
+    <state width="1659" height="344" key="GridCell.Tab.2.center" timestamp="1590937835306">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835306" />
+    <state width="1659" height="344" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223756" />
+    <state width="1659" height="344" key="GridCell.Tab.2.left" timestamp="1590937835305">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835305" />
+    <state width="1659" height="344" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223756" />
+    <state width="1659" height="344" key="GridCell.Tab.2.right" timestamp="1590937835306">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835306" />
+    <state width="1659" height="344" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223757" />
+    <state width="1659" height="344" key="GridCell.Tab.3.bottom" timestamp="1590937835308">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835308" />
+    <state width="1659" height="344" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223759" />
+    <state width="1659" height="344" key="GridCell.Tab.3.center" timestamp="1590937835307">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835307" />
+    <state width="1659" height="344" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223758" />
+    <state width="1659" height="344" key="GridCell.Tab.3.left" timestamp="1590937835307">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835307" />
+    <state width="1659" height="344" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223758" />
+    <state width="1659" height="344" key="GridCell.Tab.3.right" timestamp="1590937835308">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="344" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590937835308" />
+    <state width="1659" height="344" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590935223759" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590926903023">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590926903023" />
+    <state x="488" y="266" width="858" height="518" key="find.popup" timestamp="1590929177135">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="488" y="266" width="858" height="518" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590929177135" />
   </component>
 </project>
