@@ -35,10 +35,18 @@ services:
     networks:
       - network
     configs:
-      - default.conf:/etc/nginx/conf.d/default.conf
-      - portainer.conf:/etc/nginx/conf.d/portainer.conf
-      - fullchain.pem:/etc/nginx/fullchain.pem
-      - privkey.pem:/etc/nginx/privkey.pem
+      - source: default.conf
+        target: /etc/nginx/conf.d/default.conf
+        mode: 0440
+      - source: portainer.conf
+        target: /etc/nginx/conf.d/portainer.conf
+        mode: 0440
+      - source: fullchain.pem
+        target: /etc/nginx/fullchain.pem
+        mode: 0440
+      - source: default.conf
+        target: /etc/nginx/privkey.pem
+        mode: 0440
     logging:
       driver: "json-file"
       options:
@@ -79,4 +87,14 @@ volumes:
     driver: local
   portainer_data:
     driver: local
+
+configs:
+  default.conf:
+    file: ./default.conf
+  portainer.conf:
+    file: ./portainer.conf
+  fullchain.pem:
+    file: ./fullchain.pem
+  privkey.pem:
+    file: ./privkey.pem
 
