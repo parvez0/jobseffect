@@ -31,7 +31,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
-      - "9000:9000"
+      - "8080:8080"
     networks:
       - network
     configs:
