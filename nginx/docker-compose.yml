@@ -39,7 +39,8 @@ services:
       - dhparam:/etc/nginx/dhparam
       - certs:/etc/nginx/certs:ro
       - /var/run/docker.sock:/tmp/docker.sock:ro
-    networks: bridge
+    networks:
+      - network
 
   letsencrypt:
     image: jrcs/letsencrypt-nginx-proxy-companion
