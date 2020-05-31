@@ -26,7 +26,6 @@ services:
 
   nginx-proxy:
     image: jwilder/nginx-proxy
-    container_name: nginx-proxy
     ports:
       - "80:80"
       - "443:443"
@@ -44,10 +43,14 @@ services:
 
   letsencrypt:
     image: jrcs/letsencrypt-nginx-proxy-companion
-    container_name: nginx-proxy-le
-    volumes_from:
-      - nginx-proxy
+    configs:
+      - source: default.conf
+        target: /etc/nginx/conf.d/default.conf
+        mode: 0440
     volumes:
+      - vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - dhparam:/etc/nginx/dhparam
       - certs:/etc/nginx/certs:rw
       - /var/run/docker.sock:/var/run/docker.sock:ro
     networks:
