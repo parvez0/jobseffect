@@ -77,4 +77,6 @@ services:
 volumes:
   mongodb:
     driver: local
+  portainer_data:
+    driver: local
 
